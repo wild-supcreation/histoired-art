@@ -5,13 +5,18 @@
     max-height:100%;
     min-width: 100%;
 }
+.notif{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
 .un{
     margin-top: 162px;
     margin-left: 158px;
     width:30px;
     border: none;
     height: 22px;
-    background-color: inherit;
+   
     
 }
 .deux{

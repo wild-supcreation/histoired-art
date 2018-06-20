@@ -1,0 +1,25 @@
+#titleBillet {
+  display: flex;
+  width: 100%;
+  justify-content:  space-around;
+  text-align: center;
+}
+
+.return  {
+  color:red;
+  margin-top: 1.5em;  
+}
+
+
+.title {
+  color:red;
+  margin-top: 3em;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 40px;
+  width: 40px;
+  margin-top: 2.5em;
+}

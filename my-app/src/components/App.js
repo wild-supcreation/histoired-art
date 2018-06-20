@@ -3,6 +3,7 @@ import './App.css';
 import PageAccueil from './PageAccueil.js'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import PageInscription from './PageInscription.js';
+import BuyTickets from './buytickets';
 
 class App extends Component {
   render() {
@@ -11,9 +12,9 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={PageAccueil} />
           <Route path="/PageInscription" component={PageInscription} />
+          <Route path="/AchatBillets" component={BuyTickets} />
         </Switch>
       </BrowserRouter>
-      
     )
   }
 }

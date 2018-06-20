@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Yesteryear-Regular";
+	src: url('../fonts/Yesteryear-Regular.ttf');
+}
+
+
+.page-inscription{
+    text-align: center;
+}
+
+.logo-inscription {
+   
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .page-inscription > p{  margin-top: 0px;
+      color:black;
+  }
+  
+  .title-inscription{
+      margin-top: 2px;
+    font-size: 2em;
+    color:#6e262d;
+    font-family: "Yesteryear-Regular";
+    margin-bottom: 0px;
+    
+  }
+  .facebook{
+      background-color: #3b5998;
+      color: white;
+      height: 50px;
+      font-size: 18px;
+      padding: 10px;
+  }

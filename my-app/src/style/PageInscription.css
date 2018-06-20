@@ -20,7 +20,7 @@
   }
   
   .title-inscription{
-      margin-top: 2px;
+      margin-top: 10px;
     font-size: 2em;
     color:#6e262d;
     font-family: "Yesteryear-Regular";
@@ -33,4 +33,26 @@
       height: 50px;
       font-size: 18px;
       padding: 10px;
+      border: none;
+      margin-top: 40px;
+      margin-bottom: 30px;
+  }
+  form{
+      margin-top:30px;
+  }
+  input{
+      width:300px;
+      height: 45px;
+      border:#ac262d 1px solid;
+      
+      margin-top: 20px;
+      padding-left: 10px;
+  }
+  .submit{
+      margin-top: 40px;
+      background-color: #ac262d;
+      color: white;
+      font-size: 18px;
+      height: 50px;
+      width: 280px;
   }

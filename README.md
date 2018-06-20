@@ -1,5 +1,5 @@
 # Histoired-art
-Hackaton Wild Code School & Sup de pub 
+Hackaton Wild Code School & Sup de creation
 48 hours
 
 ##About

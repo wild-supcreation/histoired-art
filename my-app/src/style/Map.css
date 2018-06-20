@@ -1,0 +1,105 @@
+.Map{
+    background-image: url("../Carte.png");
+    background-size:100% ;
+    background-repeat: no-repeat;
+    max-height:100%;
+    min-width: 100%;
+}
+.un{
+    margin-top: 162px;
+    margin-left: 158px;
+    width:30px;
+    border: none;
+    height: 22px;
+    background-color: inherit;
+    
+}
+.deux{
+    margin-top: 10px;
+    margin-left: 252px;
+    width:33px;
+    border: none;
+    height: 22px;
+    background-color: inherit;
+}
+.trois{
+    margin-top: 13px;
+    margin-left: 268px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.quatre{
+    position: absolute;
+    top: 357px;
+    left: 269px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+    
+}
+.cinq{
+    position: absolute;
+    top: 441px;
+    left: 276px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.bsix{
+   
+    margin-top: 135px;
+    margin-left:153px;
+    margin-bottom: 200px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.sept{
+    position: absolute;
+    top: 447px;
+    left: 78px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.huit{
+    position: absolute;
+    top: 362px;
+    left: 192px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.neuf{
+    position: absolute;
+    top: 349px;
+    left: 76px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.dix{
+    margin-top: 13px;
+    margin-left: 144px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}
+.onze{
+    position: absolute;
+    top: 278px;
+    left: 75px;
+    width:33px;
+    border: none;
+    height: 24px;
+    background-color: inherit;
+}

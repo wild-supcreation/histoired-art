@@ -4,10 +4,15 @@
   justify-content: space-around;
 }
 
-select {
-  margin-left: 1.5em;
-  width: 76%;
-  height: 2em;
+.nb {
+  color:#2b2b2b;
+  font-size: 17px;
+  margin-left: 1em;
+}
+
+.select {margin-left: 1em;
+  width: 86%;
+  height: 2.1em;
   border: solid 1px #AC262D;
   background-color: #2b2b2b;
   color: white;
@@ -24,7 +29,7 @@ select {
   margin-top: 1.5em;
 }
 
-.containerHalfPage {
+.containerTopPage {
   background-color: #2b2b2b;
   height: 28em;
 }
@@ -59,11 +64,4 @@ select {
   font-weight: bold;
   color: #AC262D;
   margin-top: 2em;
-}
-
-.logo {
-  animation: App-logo-spin infinite 5s linear;
-  height: 40px;
-  width: 40px;
-  margin-top: 2.5em;
 }

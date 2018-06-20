@@ -1,23 +1,67 @@
 #titleBillet {
   display: flex;
   width: 100%;
-  justify-content:  space-around;
+  justify-content: space-around;
+}
+
+select {
+  margin-left: 1.5em;
+  width: 76%;
+  height: 2em;
+  border: solid 1px #AC262D;
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 1.5em;
+}
+
+.nadarDes {
+  display: flex;
+  justify-content: center;
+}
+
+.return {
+  color: #AC262D;
+  margin-top: 1.5em;
+}
+
+.containerHalfPage {
+  background-color: #2b2b2b;
+  height: 28em;
+}
+
+.where {
+  margin-top:-1.1em;  
+}
+.center {
+  color:white;
   text-align: center;
 }
 
-.return  {
-  color:red;
-  margin-top: 1.5em;  
+.text {
+  margin-top:-1.5em;
+  font-weight: bold;
 }
 
+.titleNadar {
+  color:white;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titleExpo {
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
 .title {
-  color:red;
-  margin-top: 3em;
+  font-size: 1.5em;  
+  font-weight: bold;
+  color: #AC262D;
+  margin-top: 2em;
 }
 
-
-.App-logo {
+.logo {
   animation: App-logo-spin infinite 5s linear;
   height: 40px;
   width: 40px;

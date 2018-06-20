@@ -3,12 +3,11 @@
  import logo from '../logo.svg'
  
  const PageAccueil = () =>
- <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Histoire d'art</h1>
-        </header>
-        
-      </div>
+ <div className="accueil">
+    <img src={logo} className="App-logo" alt="logo" />
+    <h1 className="App-title">L'histoire Dar</h1>
+    <p> Votre guide pour l'exposition de la BNF</p>
+
+    </div>
 
 export default PageAccueil

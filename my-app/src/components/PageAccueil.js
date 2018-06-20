@@ -5,7 +5,7 @@
  
  const PageAccueil = () =>
  <div className="accueil">
-   <Link to path="/"><img src={logo} className="App-logo" alt="logo" /></Link>
+   <Link to="/PageInscription"><img src={logo} className="App-logo" alt="logo" /></Link>
     <h1 className="App-title">L'Histoire Dar</h1>
     <p> Votre guide pour l'exposition de la BNF</p>
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import PageAccueil from './PageAccueil.js'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import PageInscription from './PageInscription.js';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={PageAccueil} />
+          <Route path="/PageInscription" component={PageInscription} />
         </Switch>
       </BrowserRouter>
       

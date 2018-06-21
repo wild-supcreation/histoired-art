@@ -8,7 +8,8 @@ import BuyTickets from './buytickets';
 class App extends Component {
 
   state = {
-    ticketBuy: false
+    ticketBuy: true,
+  // title : ['ACHETER UN BILLET', 'VOTRE COMMANDE','CONFIRMATION ACHAT']
   }
 
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={PageAccueil} />
           <Route path="/PageInscription" component={PageInscription} />
-          <Route path="/AchatBillets" render={() => <BuyTickets state={this.state.ticketBuy} />} />
+          <Route path="/AchatBillets" render={() => <BuyTickets state={!this.state.ticketBuy} />} />
         </Switch>
       </BrowserRouter>
     )

@@ -29,7 +29,7 @@ class App extends Component {
 
 closePageAccueil = () => setTimeout(() => { this.setState({pageSwitch: true})
   
-}, 3000) 
+}, 2000) 
 
 MouseEnter = () =>
     this.setState({open: true})

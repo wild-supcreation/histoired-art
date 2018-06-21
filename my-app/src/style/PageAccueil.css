@@ -1,40 +1,39 @@
 @font-face {
-    font-family: "Yesteryear-Regular";
-    src: url('../fonts/Yesteryear-Regular.ttf');
+	font-family: "Yesteryear-Regular";
+	src: url('../fonts/Yesteryear-Regular.ttf');
 }
 
 
 
-.logo5 {
-    width: 60%;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 15%;
+
+.accueil{
+    text-align: center;
+  }
+  
+  .logo5 {
     animation: App-logo-spin infinite 5s linear;
-}
-
-.title-logo {
-    margin-top: 30%;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .accueil>p{
+      color: #404040;
+  }
+  
+  .titlelogo {
     font-size: 2.5em;
-    color: #6e262d;
+    color:#6e262d;
     font-family: "Yesteryear-Regular";
     margin-bottom: 5px;
-}
-
-.title {
-    margin-top: 70%;
-}
-
-.App-intro {
+  }
+  
+  .App-intro {
     font-size: large;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
 

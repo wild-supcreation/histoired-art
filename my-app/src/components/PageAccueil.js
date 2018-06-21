@@ -7,7 +7,7 @@
  <div className="accueil">
  
    <img src={logo} className="logo5" alt="logo" />
-    <h1 className="title-logo">L'Histoire Dar</h1>
+    <h1 className="titlelogo">L'Histoire Dar</h1>
     <p> Votre guide pour l'exposition de la BNF</p>
 
     </div>

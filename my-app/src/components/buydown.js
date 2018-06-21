@@ -1,11 +1,13 @@
 import React from 'react'
-
-const BuyDown = () => {
+const BuyDown = ({Buy}) => {
   return (
     <div>
-      <br />
       <p className='nb' > NOMBRE </p>
-      <input className='select' type='text' />
+      <input id='selectNb' className='select' type='text' />
+      <div className='containerButton'>
+        <button onClick={() => console.log('hahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhaaarg')}>ANNULE</button>
+        <button >VALIDE</button>
+      </div>
     </div>
   )
 }

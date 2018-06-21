@@ -18,7 +18,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={PageAccueil} />
           <Route path="/PageInscription" component={PageInscription} />
-          <Route path="/AchatBillets" render={ () => <BuyTickets state={this.state}/> } />
+          <Route path="/AchatBillets" render={ () => <BuyTickets state={this.state.ticketBuy}/> } />
         </Switch>
       </BrowserRouter>
     )

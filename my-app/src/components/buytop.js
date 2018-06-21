@@ -1,7 +1,7 @@
 import React from 'react'
 import nadarPics from '../nadar-photographe@2x.png'
 import '../style/buytickets.css'
-const BuyTop = ({buy}) => {
+const BuyTop = ({buy, title}) => {
   console.log(buy,'jjjjjjjjjjjjjjjjoujou');
   return (
     <div className='containerTopPage'>
@@ -9,7 +9,7 @@ const BuyTop = ({buy}) => {
 
         <h1 className='return'>⬅</h1>
 
-        <p className='title '>ACHETER UN BILLET </p>
+        <p className='title '>{title} </p>
 
       </div>
       <div className='container'>
@@ -18,15 +18,14 @@ const BuyTop = ({buy}) => {
       </div>
       <div className='nadarDes'>
         <div className='container'>
-          <img src={nadarPics} alt="Nadar photo" />
-          {/* <img src='../../Projet NADAR/nadar-photographe@2x.png' className="nadarPics" alt="Nadar photo" /> */}
-          <p className='center'>TYPE DE BILLET</p>
+          <img className='nadarPics' src={nadarPics} alt="Nadar photo" />
+          <p className='center ticketType'>TYPE DE BILLET</p>
         </div>
         <div className='container'>
           <p className='titleExpo center'>EXPOSITION DE LA BNF</p>
-          <p className='center where' >François-Mitterrand</p>
-          <p className='center where' >du 6 octobre 2018</p>
-          <p className='center where' >au 3 fevrier 2019</p>
+          <p className='center whereWhen' >François-Mitterrand</p>
+          <p className='center whereWhen' >du 6 octobre 2018</p>
+          <p className='center whereWhen' >au 3 fevrier 2019</p>
         </div>
       </div>
       <div>

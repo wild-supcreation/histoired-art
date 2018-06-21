@@ -6,16 +6,6 @@ import PageInscription from './PageInscription.js';
 import BuyTickets from './buytickets';
 
 class App extends Component {
-
-  // state = {
-  //   ticketBuy: false,
-  // // title : ['ACHETER UN BILLET', 'VOTRE COMMANDE','CONFIRMATION ACHAT']
-  // }
-
-  // changeTicket = () => {
-  //   this.setState({ticketBuy : true})
-  // }
-
   render() {
 
     return (

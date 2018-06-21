@@ -56,7 +56,6 @@
 
 .whereWhen {
   margin-top: -0.9em;
-  /* font-weight: bold; */
   font-size: 1.2em;
 }
 
@@ -87,11 +86,29 @@
   font-size: 1.5em;
 }
 
+.toi {
+  margin-top:4em;
+}
+
 /* PAGE DOWN */
 
 .containerButton {
   display: flex;
   justify-content: center;
+}
+
+#card {
+  background-color: white;
+
+}
+
+.cardText {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.buttonBuy {
+  margin-top: 1em;
 }
 
 .nb {

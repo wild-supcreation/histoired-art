@@ -3,8 +3,8 @@ import TicketHeader from './ticketHeader.js'
 import InformationBNF from './informationBNF.js'
 import '../style/buytickets.css'
 
-const tickeType = (ticketBuy) => {
-  if (ticketBuy) {
+const tickeType = (buy, valid) => {
+  if (!buy && !valid) {
     return (
       <div>
         <p className='ticketType'>TYPE DE BILLET</p>
@@ -23,14 +23,14 @@ const tickeType = (ticketBuy) => {
 
 }
 
-const BuyTop = ({ buy, title }) => {
-  if (buy) {
+const BuyTop = ({ buy, title, valid }) => {
+  if (!buy) {
 
     return (
       <div className='containerTopPage'>
         <TicketHeader title={title} />
-        <InformationBNF buy={buy} />
-        {tickeType(buy)}
+        <InformationBNF buy={buy} valid={valid} />
+        {tickeType(buy, valid)}
       </div>
     )
   }
@@ -38,7 +38,7 @@ const BuyTop = ({ buy, title }) => {
     return (
       <div className='containerTopPage'>
         <TicketHeader title={title} />
-        <InformationBNF buy={buy} />
+        <InformationBNF buy={buy} valid={valid} />
       </div>
     )
   }

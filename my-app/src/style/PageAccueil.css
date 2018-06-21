@@ -3,11 +3,7 @@
     src: url('../fonts/Yesteryear-Regular.ttf');
 }
 
-.accueil {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
+
 
 .logo5 {
     width: 60%;

@@ -15,7 +15,7 @@ export default class Avantage extends React.Component {
                     <Link to="/"><a><img src={leftArrow} alt='left-arrow'/></a></Link>
                     <span style={{fontWeight: 'bold'}}>À PROPOS</span> DE L'APP
                 </div>
-                <div>
+                <div clasName='image1'>
                     <img src={AtelierNadar} alt='AtelierNadar'/>
                     <p style={{color: '#ac262d', marginTop:'-90px', fontSize:'40px', marginLeft:'25%',  fontFamily: "Yesteryear-Regular"}} >Histoire Dar</p>
                 </div>

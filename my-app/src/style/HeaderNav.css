@@ -1,0 +1,36 @@
+.Nav {
+    background-color: #2B2B2B;
+    height: 22em;
+
+}
+
+.HeaderNav {
+    background-color: #2B2B2B;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:6em;
+}
+
+.HeaderNav > a {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.HeaderNav > p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.headerImg > img {
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 110px;
+}

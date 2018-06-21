@@ -1,14 +1,29 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
+import React, {Component} from 'react';
 import './App.css';
-import PageAccueil from './PageAccueil.js'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import PageAccueil from '../component_pages/PageAccueil';
+import CreateAvatar from '../component_pages/CreateAvatar';
+import CreateAvatarFiltre from '../component_pages/CreateAvatarFiltre';
+import PartageAvatar from '../component_pages/PartageAvatar';
+import OnBoarding from '../component_pages/OnBoarding';
+import ActiverNotif from '../component_pages/ActiverNotif'
 
 class App extends Component {
-  render() {
-    return (
-      <PageAccueil />
-    );
-  }
+    render() {
+        return (
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={PageAccueil}/>
+                    <Route path="/CreateAvatar" component={CreateAvatar}/>
+                    <Route path="/CreateAvatarFiltre" component={CreateAvatarFiltre}/>
+                    <Route path="/ActiverNotif" component={ActiverNotif}/>
+                    <Route path="/PartageAvatar" component={PartageAvatar}/>
+                    <Route path="/OnBoarding" component={OnBoarding}/>
+                </Switch>
+            </BrowserRouter>
+        )
+    }
 }
+
 
 export default App;

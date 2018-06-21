@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import PageInscription from './PageInscription'
 import PageAccueil from '../component_pages/PageAccueil';
 import CreateAvatar from '../component_pages/CreateAvatar';
 import CreateAvatarFiltre from '../component_pages/CreateAvatarFiltre';
@@ -14,6 +15,7 @@ class App extends Component {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={PageAccueil}/>
+                   <Route path="/PageInscription" component={PageInscription}/>
                     <Route path="/CreateAvatar" component={CreateAvatar}/>
                     <Route path="/CreateAvatarFiltre" component={CreateAvatarFiltre}/>
                     <Route path="/ActiverNotif" component={ActiverNotif}/>
@@ -24,6 +26,5 @@ class App extends Component {
         )
     }
 }
-
 
 export default App;

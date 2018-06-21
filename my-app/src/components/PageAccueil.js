@@ -1,11 +1,12 @@
  import React from 'react'
  import '../style/PageAccueil.css'
  import logo from '../logo.svg'
- import {Link} from 'react-router-dom'
+
  
- const PageAccueil = () =>
+ const PageAccueil = ({closePageAccueil}) =>
  <div className="accueil">
-   <Link to="/PageInscription"><img src={logo} className="App-logo" alt="logo" /></Link>
+ 
+   <img src={logo} className="App-logo" alt="logo" />
     <h1 className="App-title">L'Histoire Dar</h1>
     <p> Votre guide pour l'exposition de la BNF</p>
 

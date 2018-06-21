@@ -1,0 +1,192 @@
+.Map{
+    background-image: url("../Carte.png");
+    background-size:100% ;
+    background-repeat: no-repeat;
+    height:640px;
+    min-width: 100%;
+}
+.notif{
+     position: absolute;
+    left: 38px;
+    top: 158px;
+    border-radius: 5px;
+    background-color:#6e262d;
+    color:white;
+    width:243px;
+    height:110px;
+    padding: 20px;
+    animation: example 2s;
+}
+@keyframes example {
+    from {top: 100px;}
+    to {top: 158px;}
+}
+.notif>p{
+    color:white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.enter{
+    position: absolute;
+    left:100px;
+    top: 115px;
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 20px;
+
+    
+}
+.un{
+    margin-top: 54px;
+    margin-left: 136px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color: inherit;
+    padding-left: 10px;
+    outline:none;
+}
+.unbis{
+    margin-top: 54px;
+    margin-left: 136px;
+    width:44px;
+    border: none;
+    height: 41px;
+    opacity:0.5;
+    padding-left: 10px;
+    outline:none;
+}
+.notif2{
+    position: absolute;
+   left: 38px;
+   top: 158px;
+   border-radius: 5px;
+   background-color:#6e262d;
+   color:white;
+   width:243px;
+   height:110px;
+   padding: 20px;
+   animation: example3 2s;
+   
+}
+@keyframes example3 {
+   from {top: 100px;}
+   to {top: 158px;}
+}
+.notif2>p{
+   color:white;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.enter2{
+    position: absolute;
+    left:100px;
+    top: 115px;
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 20px;
+}
+
+.deux{
+    margin-top: 8px;
+    margin-left: 248px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+    outline:none;
+}
+.deuxbis{
+    margin-top: 8px;
+    margin-left: 248px;
+    width:44px;
+    border: none;
+    height: 41px;
+    
+    outline:none;
+    opacity: 0.5;
+}
+.trois{
+    margin-top: 72px;
+    margin-left: 268px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.quatre{
+    position: absolute;
+    top: 356px;
+    left: 220px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+    
+}
+.cinq{
+    position: absolute;
+    top: 484px;
+    left: 229px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.six{
+   
+    margin-top: 198px;
+    margin-left:132px;
+    margin-bottom: 140px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.sept{
+    position: absolute;
+    top: 495px;
+    left: -7px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.huit{
+    position: absolute;
+    top: 363px;
+    left: 128px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.neuf{
+    position: absolute;
+    top: 344px;
+    left: -11px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.dix{
+    position: absolute;
+    top: 235px;
+    left: -11px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}
+.onze{
+    position: absolute;
+    top: 167px;
+    left: 70px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+}

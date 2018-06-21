@@ -5,6 +5,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import PageInscription from './PageInscription.js';
 import Map from './Map.js'
 import Erreur from './Erreur.js'
+import Erreur2 from './Erreur2';
+import "../../node_modules/video-react/dist/video-react.css";
 
 class App extends Component {
   constructor(){
@@ -15,6 +17,7 @@ class App extends Component {
     open: false,
     open2: false,
     correct: [],
+    fini: false
     }
 
 closePageAccueil = () => setTimeout(() => { this.setState({pageSwitch: true})
@@ -30,7 +33,7 @@ MouseEnter = () =>
     this.setState({open2: true})
 
     MouseOff2 = () =>
-    this.setState({open2: false})
+    this.setState({open2: false, fini:true})
 
 
  correctPush = {
@@ -60,6 +63,7 @@ correctPush7: () => {if (!this.state.correct.includes(7))  return this.setState(
           <Route exact path="/" component={PageInscription} />
           <Route path="/Map" render={() => <Map state={this.state} MouseEnter={this.MouseEnter} MouseOff={this.MouseOff}MouseEnter2={this.MouseEnter2} MouseOff2={this.MouseOff2} />}/>
           <Route path="/Erreur" render={() => <Erreur state={this.state} correctPush={this.correctPush} />}/>
+          <Route path="/Erreur2" render={()=> <Erreur2 />}/>
         </Switch>
       </BrowserRouter>
       

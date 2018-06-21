@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/Map.css'
+import {Link} from 'react-router-dom'
 
 class Map extends React.Component {
 
@@ -16,18 +17,9 @@ class Map extends React.Component {
     render () {
         return (
 <div className='Map'>
-<div style={{display: this.state.open === true ? 'block' : 'none'}} className='notif'> coucou</div>
+<div style={{display: this.state.open === true ? 'block' : 'none'}} className='notif'> <p>Et tu pres pour decouvrir les 7 erreurs dans la photo de Nadar?Click sur le nr 1 pour commencer.</p><br/><button className='enter'>ENTER</button></div>
 <button onMouseOver ={() => this.MouseEnter()} onMouseLeave={()=>this.MouseOut()} className='un'></button>
 <button className='deux'></button>
-<button className='onze'></button>
-<button className='trois'></button>
-<button className='dix'></button>
-<button className='neuf'></button>
-<button className='quatre'></button>
-<button className='huit'></button>
-<button className='six'></button>
-<button className='cinq'></button>
-<button className='sept'></button>
 </div>
         )
     }

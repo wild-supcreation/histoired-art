@@ -4,6 +4,7 @@ import PageAccueil from './PageAccueil.js'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import PageInscription from './PageInscription.js';
 import Map from './Map.js'
+import Erreur from './Erreur.js'
 
 class App extends Component {
   constructor(){
@@ -40,6 +41,7 @@ closePageAccueil = () => setTimeout(() => { this.setState = ({pageSwitch: true})
         <Switch>
           <Route exact path="/" component={PageInscription} />
           <Route path="/Map" component={Map} />
+          <Route path="/Erreur" component={Erreur} />
         </Switch>
       </BrowserRouter>
       

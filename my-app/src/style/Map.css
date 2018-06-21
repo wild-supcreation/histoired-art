@@ -2,112 +2,135 @@
     background-image: url("../Carte.png");
     background-size:100% ;
     background-repeat: no-repeat;
-    max-height:100%;
+    height:640px;
     min-width: 100%;
 }
 .notif{
+     position: absolute;
+    left: 38px;
+    top: 158px;
+    border-radius: 5px;
+    background-color:#6e262d;
+    color:white;
+    width:243px;
+    height:100px;
+    padding: 20px;
+    animation: example 2s;
+}
+@keyframes example {
+    from {top: 100px;}
+    to {top: 158px;}
+}
+.notif>p{
+    color:white;
+    margin-bottom: 30px;
+}
+.enter{
     position: absolute;
-    left: 150px;
-    top: 30px;
+    left:100px;
+    top: 103px;
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 20px;
+
+    
 }
 .un{
-    margin-top: 56px;
-    margin-left: 142px;
+    margin-top: 54px;
+    margin-left: 136px;
     width:44px;
     border: none;
     height: 41px;
     background-color: inherit;
-    
-   
-    
 }
 .deux{
-    margin-top: 12px;
-    margin-left: 259px;
+    margin-top: 8px;
+    margin-left: 248px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .trois{
-    margin-top: 84px;
-    margin-left: 279px;
+    margin-top: 72px;
+    margin-left: 268px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .quatre{
     position: absolute;
-    top: 370px;
-    left: 280px;
+    top: 356px;
+    left: 220px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
     
 }
 .cinq{
     position: absolute;
-    top: 505px;
-    left: 289px;
+    top: 484px;
+    left: 229px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .six{
    
-    margin-top: 215px;
-    margin-left:138px;
-    margin-bottom: 103px;
+    margin-top: 198px;
+    margin-left:132px;
+    margin-bottom: 140px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .sept{
     position: absolute;
-    top: 516px;
-    left: 45px;
+    top: 495px;
+    left: -7px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .huit{
     position: absolute;
-    top: 379px;
-    left: 186px;
+    top: 363px;
+    left: 128px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .neuf{
     position: absolute;
-    top: 358px;
-    left: 41px;
+    top: 344px;
+    left: -11px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .dix{
     position: absolute;
-    top: 244px;
-    left: 41px;
+    top: 235px;
+    left: -11px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }
 .onze{
     position: absolute;
-    top: 174px;
-    left: 124px;
+    top: 167px;
+    left: 70px;
     width:44px;
     border: none;
     height: 41px;
-    background-color: inherit;
+    background-color:inherit;
 }

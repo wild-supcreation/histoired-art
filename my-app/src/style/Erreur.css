@@ -1,0 +1,7 @@
+.erreur{
+    background-image: url('../erreurs.png');
+    background-size:100% ;
+    background-repeat: no-repeat;
+    height:800px;
+    min-width: 100%;
+}

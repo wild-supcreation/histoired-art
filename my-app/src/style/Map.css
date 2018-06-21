@@ -13,7 +13,7 @@
     background-color:#6e262d;
     color:white;
     width:243px;
-    height:100px;
+    height:110px;
     padding: 20px;
     animation: example 2s;
 }
@@ -24,11 +24,12 @@
 .notif>p{
     color:white;
     margin-bottom: 30px;
+    text-align: center;
 }
 .enter{
     position: absolute;
     left:100px;
-    top: 103px;
+    top: 115px;
     border:none;
     background-color: inherit;
     color:white;
@@ -43,7 +44,50 @@
     border: none;
     height: 41px;
     background-color: inherit;
+    padding-left: 10px;
+    outline:none;
 }
+.unbis{
+    margin-top: 54px;
+    margin-left: 136px;
+    width:44px;
+    border: none;
+    height: 41px;
+    opacity:0.5;
+    padding-left: 10px;
+    outline:none;
+}
+.notif2{
+    position: absolute;
+   left: 38px;
+   top: 158px;
+   border-radius: 5px;
+   background-color:#6e262d;
+   color:white;
+   width:243px;
+   height:110px;
+   padding: 20px;
+   animation: example3 2s;
+}
+@keyframes example3 {
+   from {top: 100px;}
+   to {top: 158px;}
+}
+.notif2>p{
+   color:white;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.enter2{
+    position: absolute;
+    left:100px;
+    top: 115px;
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 20px;
+}
+
 .deux{
     margin-top: 8px;
     margin-left: 248px;
@@ -51,6 +95,17 @@
     border: none;
     height: 41px;
     background-color:inherit;
+    outline:none;
+}
+.deuxbis{
+    margin-top: 8px;
+    margin-left: 248px;
+    width:44px;
+    border: none;
+    height: 41px;
+    background-color:inherit;
+    outline:none;
+    opacity: 0.5;
 }
 .trois{
     margin-top: 72px;

@@ -4,7 +4,7 @@ import InformationBNF from './informationBNF.js'
 import '../style/buytickets.css'
 
 const tickeType = (ticketBuy) => {
-  if (ticketBuy.state) {
+  if (ticketBuy) {
     return (
       <div>
         <p className='ticketType'>TYPE DE BILLET</p>

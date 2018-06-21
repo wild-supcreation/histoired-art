@@ -38,8 +38,15 @@
 }
 
 .nadarPics {
-  margin-left: 0.8em;  
+  margin-left: 0em;
   margin-top: 1em;
+}
+
+.nadarPicsBis {
+  width: 12em;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: -2.5em;
 }
 
 .nadarDes {
@@ -64,8 +71,10 @@
 }
 
 .ticketType {
+  color: white;
   font-size: 17px;
-  margin-left: 1.3em;
+  margin-left: 1.4em;
+  margin-bottom: 0.5em;
 }
 
 .select {
@@ -99,10 +108,24 @@
 
 button {
   margin: 0.8em;
+  margin-top: 2em;
   height: 2.6em;
   width: 7.4em;
   background-color: white;
   color: #AC262D;
   border: solid 1px #AC262D;
   font-size: 1.2em;
+}
+
+.tickets {
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#goback {
+  margin-left: 1.6em;
+  margin-top: 3.3em;
+  width: 16em;
 }

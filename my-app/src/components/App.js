@@ -7,10 +7,14 @@ import BuyTickets from './buytickets';
 
 class App extends Component {
 
-  state = {
-    ticketBuy: true,
-  // title : ['ACHETER UN BILLET', 'VOTRE COMMANDE','CONFIRMATION ACHAT']
-  }
+  // state = {
+  //   ticketBuy: false,
+  // // title : ['ACHETER UN BILLET', 'VOTRE COMMANDE','CONFIRMATION ACHAT']
+  // }
+
+  // changeTicket = () => {
+  //   this.setState({ticketBuy : true})
+  // }
 
   render() {
 
@@ -19,7 +23,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={PageAccueil} />
           <Route path="/PageInscription" component={PageInscription} />
-          <Route path="/AchatBillets" render={() => <BuyTickets state={!this.state.ticketBuy} />} />
+          <Route path="/AchatBillets" component={BuyTickets} />
         </Switch>
       </BrowserRouter>
     )

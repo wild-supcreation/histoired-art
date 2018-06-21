@@ -2,7 +2,7 @@ import React from 'react'
 import nadarPics from '../nadar-photographe@2x.png'
 
 const InformationBNF = ({ buy }) => {
-  if (!buy.state) {
+  if (!buy) {
     return (
       <div className='nadarDes'>
         <div className='container'>

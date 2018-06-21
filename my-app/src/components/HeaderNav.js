@@ -1,5 +1,4 @@
 import React from 'react'
-import leftArrow from '../icon/left-arrow.svg'
 import '../style/HeaderNav.css'
 
 

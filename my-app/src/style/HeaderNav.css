@@ -1,7 +1,10 @@
 .Nav {
     background-color: #2B2B2B;
     height: 22em;
+}
 
+p{
+    color: white;
 }
 
 .HeaderNav {

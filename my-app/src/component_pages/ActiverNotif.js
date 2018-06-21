@@ -18,9 +18,12 @@ export default class CreateAvatarFiltre extends React.Component{
                 <div className='textAvatar'>
                     <p style={{color: '#ac262d', fontSize: 23}}>On aimerait bien <span
                         style={{fontWeight: 'bold'}}>rester en contact</span></p>
-                    <p>Activer les notifications pour recevoir des actualités et du contenu inédit avant de visiter l'expositon</p>
+                    <p style={{color:'black'}}>Activer les notifications pour recevoir des actualités et du contenu inédit avant de visiter l'expositon</p>
                 </div>
-                <button className='photoBtn'>ACTIVER LES NOTIFICATIONS</button>
+                <Link to='/Avantage'><button>ACTIVER LES NOTIFICATIONS</button></Link>
+                <div id='link'>
+                    <Link to="/ActiverNotif"><button style={{border:0, color:'grey'}}>Plus tard</button></Link>
+                </div>
             </div>
         )
     }

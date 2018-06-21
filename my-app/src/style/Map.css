@@ -11,100 +11,103 @@
     top: 30px;
 }
 .un{
-    margin-top: 162px;
-    margin-left: 158px;
-    width:30px;
+    margin-top: 56px;
+    margin-left: 142px;
+    width:44px;
     border: none;
-    height: 22px;
+    height: 41px;
+    background-color: inherit;
+    
    
     
 }
 .deux{
-    margin-top: 10px;
-    margin-left: 252px;
-    width:33px;
+    margin-top: 12px;
+    margin-left: 259px;
+    width:44px;
     border: none;
-    height: 22px;
+    height: 41px;
     background-color: inherit;
 }
 .trois{
-    margin-top: 13px;
-    margin-left: 268px;
-    width:33px;
+    margin-top: 84px;
+    margin-left: 279px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .quatre{
     position: absolute;
-    top: 357px;
-    left: 269px;
-    width:33px;
+    top: 370px;
+    left: 280px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
     
 }
 .cinq{
     position: absolute;
-    top: 441px;
-    left: 276px;
-    width:33px;
+    top: 505px;
+    left: 289px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
-.bsix{
+.six{
    
-    margin-top: 135px;
-    margin-left:153px;
-    margin-bottom: 200px;
-    width:33px;
+    margin-top: 215px;
+    margin-left:138px;
+    margin-bottom: 103px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .sept{
     position: absolute;
-    top: 447px;
-    left: 78px;
-    width:33px;
+    top: 516px;
+    left: 45px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .huit{
     position: absolute;
-    top: 362px;
-    left: 192px;
-    width:33px;
+    top: 379px;
+    left: 186px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .neuf{
     position: absolute;
-    top: 349px;
-    left: 76px;
-    width:33px;
+    top: 358px;
+    left: 41px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .dix{
-    margin-top: 13px;
-    margin-left: 144px;
-    width:33px;
+    position: absolute;
+    top: 244px;
+    left: 41px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }
 .onze{
     position: absolute;
-    top: 278px;
-    left: 75px;
-    width:33px;
+    top: 174px;
+    left: 124px;
+    width:44px;
     border: none;
-    height: 24px;
+    height: 41px;
     background-color: inherit;
 }

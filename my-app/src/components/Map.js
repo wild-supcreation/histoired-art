@@ -19,13 +19,13 @@ class Map extends React.Component {
 <div style={{display: this.state.open === true ? 'block' : 'none'}} className='notif'> coucou</div>
 <button onMouseOver ={() => this.MouseEnter()} onMouseLeave={()=>this.MouseOut()} className='un'></button>
 <button className='deux'></button>
-<button className='dix'></button>
-<button className='trois'></button>
 <button className='onze'></button>
+<button className='trois'></button>
+<button className='dix'></button>
 <button className='neuf'></button>
 <button className='quatre'></button>
 <button className='huit'></button>
-<button className='bsix'></button>
+<button className='six'></button>
 <button className='cinq'></button>
 <button className='sept'></button>
 </div>

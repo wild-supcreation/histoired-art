@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import PageAccueil from './PageAccueil.js'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
@@ -7,6 +7,13 @@ import Map from './Map.js'
 import Erreur from './Erreur.js'
 import Erreur2 from './Erreur2';
 import "../../node_modules/video-react/dist/video-react.css";
+import CreateAvatar from '../component_pages/CreateAvatar';
+import CreateAvatarFiltre from '../component_pages/CreateAvatarFiltre';
+import PartageAvatar from '../component_pages/PartageAvatar';
+import OnBoarding from '../component_pages/OnBoarding';
+import ActiverNotif from '../component_pages/ActiverNotif';
+import Avantage from '../component_pages/Avantage';
+
 
 class App extends Component {
   constructor(){
@@ -64,11 +71,19 @@ correctPush7: () => {if (!this.state.correct.includes(7))  return this.setState(
           <Route path="/Map" render={() => <Map state={this.state} MouseEnter={this.MouseEnter} MouseOff={this.MouseOff}MouseEnter2={this.MouseEnter2} MouseOff2={this.MouseOff2} />}/>
           <Route path="/Erreur" render={() => <Erreur state={this.state} correctPush={this.correctPush} />}/>
           <Route path="/Erreur2" render={()=> <Erreur2 />}/>
+          <Route path="/CreateAvatar" component={CreateAvatar}/>
+          <Route path="/CreateAvatarFiltre" component={CreateAvatarFiltre}/>
+          <Route path="/ActiverNotif" component={ActiverNotif}/>
+          <Route path="/PartageAvatar" component={PartageAvatar}/>
+          <Route path="/Avantage" component={Avantage}/>
+          <Route path="/OnBoarding" component={OnBoarding}/>
         </Switch>
       </BrowserRouter>
       
     )}
   }
+
+
 }
 
 export default App;

@@ -6,8 +6,8 @@
  const PageAccueil = ({closePageAccueil}) =>
  <div className="accueil">
  
-   <img src={logo} className="App-logo" alt="logo" />
-    <h1 className="App-title">L'Histoire Dar</h1>
+   <img src={logo} className="logo5" alt="logo" />
+    <h1 className="title-logo">L'Histoire Dar</h1>
     <p> Votre guide pour l'exposition de la BNF</p>
 
     </div>

@@ -1,0 +1,16 @@
+.Footer {
+    background-color: #AC262D;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    height: 5em;
+    width: 100%;
+}
+
+/*a > img {*/
+    /*margin: 1Opx;*/
+    /*width: 23px;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+/*}*/

@@ -1,0 +1,41 @@
+.textAvatar {
+    margin: 0 40px;
+    font-size: 17px;
+}
+
+a > img {
+    margin-top: -5px;
+    width: 30px;
+    position: fixed;
+    left: 20px;
+}
+
+button {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: 1px #ac262d solid;
+    width: 250px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 15%;
+    color: #AC262D;
+}
+
+#link {
+    margin-top: 15px;
+    color: grey;
+}
+
+.SocialeIcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.SocialeIcon > img {
+    width: 40px;
+    margin: 5px;
+}
+

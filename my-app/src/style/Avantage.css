@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Yesteryear-Regular";
+    src: url('../fonts/Yesteryear-Regular.ttf');
+}
+
+.Avantage {
+    margin-top: 10px;
+    height: 3em;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-left: -20px;
+}
+
+li {
+    padding-bottom: '20px';
+}
+
+img {
+    z-index: -1;
+}
+
+
+
+
+
+

@@ -8,7 +8,7 @@ const Erreur2 = () => {
         <Player 
        src={movie}
        poster ={carte}
-       aspectRatio='16:25'/>
+       aspectRatio='16:28'/>
     )
 }
 export default Erreur2

@@ -15,7 +15,7 @@ export default class PartageAvatar extends React.Component {
         return (
             <div>
                 <HeaderNav style={{width:'65%', marginTop:'28%', marginLeft:'18%'}} src={avatarFemmeFiltre}>
-                    <Link to="/CreateAvatarFiltre"><a><img src={leftArrow} alt='left-arrow'/></a></Link>
+                    <Link to="/CreateAvatarFiltre"><div className='aaa'><img src={leftArrow} alt='left-arrow'/></div></Link>
                     <span style={{fontWeight: 'bold'}}>PARTAGER</span> <br/>VOTRE AVATAR
                 </HeaderNav>
                 <div className='textAvatar'>
@@ -29,7 +29,7 @@ export default class PartageAvatar extends React.Component {
                     <img src={twitter} alt='twitter'/>
                 </div>
                 <div id='link'>
-                    <Link to="/ActiverNotif"><button style={{border:0}}>SKIP</button></Link>
+                    <Link to="/ActiverNotif"><button className='buton5' style={{border:0}}>SKIP</button></Link>
                 </div>
             </div>
         )

@@ -6,7 +6,7 @@ const HeaderNav = ({style, src, children}) => {
     return (
         <div className='Nav'>
             <div className='HeaderNav'>
-                <p className='pp'>{children}</p>
+                < div className='pp'>{children}</div>
             </div>
             <div className='headerImg'>
                 <img style={style} src={src} alt='avatar'/>

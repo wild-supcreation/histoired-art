@@ -10,7 +10,7 @@ const PageInscription = () =>
         <img src={logo} className="logo-inscription" alt="logo"/>
         <h1 className="title-inscription">L'Histoire Dar</h1>
         <p> Votre guide pour l'exposition de la BNF</p>
-        <button className='facebook'>INSCRIPTION VIA FACEBOOK</button>
+       <Link to ='/CreateAvatar'> <button className='facebook'>INSCRIPTION VIA FACEBOOK</button></Link>
         <p> ou </p>
         <form>
             <label className='form-title'>Inscription via une adresse mail</label><br/>

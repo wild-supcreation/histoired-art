@@ -12,7 +12,7 @@ export default class CreateAvatarFiltre extends React.Component{
         return(
             <div>
                 <HeaderNav style={{width:'65%', marginTop:'28%', marginLeft:'18%'}} src={avatarFemmeFiltre}>
-                    <Link to="/CreateAvatar"><a><img src={leftArrow} alt='left-arrow'/></a></Link>
+                    <Link to="/CreateAvatar"><div className='aaa'><img src={leftArrow} alt='left-arrow'/></div></Link>
                     <span style={{fontWeight: 'bold'}}>CRÉER</span> <br/>VOTRE AVATAR
                 </HeaderNav>
                 <div className='textAvatar'>
@@ -20,7 +20,7 @@ export default class CreateAvatarFiltre extends React.Component{
                         style={{fontWeight: 'bold'}}>convient ?</span></p>
                     <p>Alors c'est parti !</p>
                 </div>
-                <Link to="/PartageAvatar"><button style={{marginTop: '56px'}}>VALIDER MA PHOTO</button></Link>
+                <Link to="/PartageAvatar"><button className='photoBtn' style={{marginTop: '56px'}}>VALIDER MA PHOTO</button></Link>
             </div>
         )
     }

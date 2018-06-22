@@ -2,6 +2,9 @@
     margin: 0 40px;
     font-size: 17px;
 }
+.textAvatar>p{
+    text-align: center;
+}
 
 .aaa > img {
     margin-top: -5px;
@@ -10,7 +13,7 @@
     left: 20px;
 }
 
-buton5 {
+.photoBtn {
     display: block;
     text-align: center;
     background-color: transparent;
@@ -20,11 +23,19 @@ buton5 {
     font-size: 15px;
     margin-left: 15%;
     color: #AC262D;
+    text-decoration: none;
 }
 
 #link {
     margin-top: 15px;
     color: grey;
+    text-align: center;
+    background-color: inherit;
+}
+.buton5{
+    background-color: transparent;
+    color: grey;
+    font-size:15px;
 }
 
 .SocialeIcon {
@@ -39,3 +50,6 @@ buton5 {
     margin: 5px;
 }
 
+a{
+    text-decoration: none;
+}

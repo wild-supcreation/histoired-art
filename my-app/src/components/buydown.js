@@ -1,6 +1,7 @@
 import React from 'react'
 import TicketButton from './ticketButtons.js'
-const BuyDown = ({ buy, valid, }) => {
+import QRcode from './../qr.png'
+const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
 
   if (!buy && !valid) {
     return (
@@ -9,7 +10,7 @@ const BuyDown = ({ buy, valid, }) => {
         <input id='selectNb' className='select' type='text' />
         <div className='containerButton'>
           <button onClick={() => buy = !buy}>ANNULER</button>
-          <button >VALIDER</button>
+          <button onClick={changeTicket} >VALIDER</button>
         </div>
         <TicketButton buy={buy} />
       </div>
@@ -23,21 +24,20 @@ const BuyDown = ({ buy, valid, }) => {
         <p className='cardText' > Ajouter une autre carte de paiement </p>
         <div className='containerButton'>
           <button className='buttonBuy' onClick={() => console.log('annuler')}>ANNULER</button>
-          <button className='buttonBuy' >VALIDER</button>
+          <button onClick={changeValid} className='buttonBuy' >VALIDER</button>
         </div>
       </div>)
-  } else if (buy && valid && title === 'TA COMMANDE') {
+  } else if (buy && valid && page === 'QR') {
     return (
       <div>
-        <p className='tickets'>VOS BILLETS</p>
-        <p>{/* i */}</p>
-        <button id='goback'> RETOUR À L'ACCEUIL </button>
-      </div>
-    )
+        <p className='eTicket'>TON E-BILLET</p>
+        <p className='eTicketText' >1 Billet 'Etudiant' Fast Pass </p>
+        <img className='QR' src={QRcode} />
+      </div>)
   } else {
     return (
       <div>
-        {/* <p className='tickets'>VOS BILLETS</p> */}
+        <p className='tickets '>VOS BILLETS</p>
         <p>{/* i */}</p>
         <button id='goback'> RETOUR À L'ACCEUIL </button>
       </div>)

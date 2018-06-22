@@ -146,3 +146,23 @@ button {
   margin-top: 3.3em;
   width: 16em;
 }
+
+.eTicketText {
+  text-align: center;
+  margin-top: -0.7em;
+  font-size:1.2em;
+}
+
+.eTicket {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  margin-top : 1em;
+}
+
+.QR{
+  margin-top: -0.7em;
+  margin-left: 7em;
+  width: 8em;
+  height: 8em;
+}

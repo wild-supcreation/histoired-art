@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
                 <Link to='/'><div id='item-nav'><img src={Notif} alt='Notif logo'/></div></Link>
                 <Link to='/'><div id='item-nav'><img src={Pin} alt='Pin logo'/></div></Link>
                 <Link to='/'><div id='item-nav'><img src={Settings} alt='Settings logo'/></div></Link>
-                <Link to='/'><div id='item-nav' ><img src={UserIcon} alt='userIcon logo'/></div></Link>
+                <Link to='QrCode'><div id='item-nav' ><img src={UserIcon} alt='userIcon logo'/></div></Link>
             </div>
         )
     }

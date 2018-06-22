@@ -18,9 +18,7 @@ li {
     padding-bottom: '20px';
 }
 
-img {
-    z-index: -1;
-}
+
 .logos{
     height:50px;
     position:absolute;

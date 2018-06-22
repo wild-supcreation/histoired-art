@@ -10,8 +10,8 @@ const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
         <p className='nb' > NOMBRE </p>
         <input id='selectNb' className='select' type='text' />
         <div className='containerButton'>
-        <Link to='/QR' > <button >ANNULER</button> </Link>
-          <button onClick={changeTicket} >VALIDER</button>
+        <Link to='/QR' > <button className='buttonQuentin' >ANNULER</button> </Link>
+          <button className='buttonQuentin' onClick={changeTicket} >VALIDER</button>
         </div>
         <TicketButton buy={buy} />
       </div>
@@ -24,8 +24,8 @@ const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
         <input id='card' className='select' type='text' />
         <p className='cardText' > Ajouter une autre carte de paiement </p>
         <div className='containerButton'>
-        <Link to='/' >  <button className='buttonBuy' >ANNULER</button> </Link>
-          <button onClick={changeValid} className='buttonBuy' >VALIDER</button>
+        <Link to='/' >  <button className='buttonBuy buttonQuentin' >ANNULER</button> </Link>
+          <button onClick={changeValid} className='buttonBuy buttonQuentin' >VALIDER</button>
         </div>
       </div>)
   } else if (buy && valid && page === 'QR') {
@@ -41,7 +41,7 @@ const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
         <p className='tickets '>VOS BILLETS</p>
         <p className='tickeTxt' >3x Billets 'Etudiant' Fast Pass</p>
 
-        <Link to='/' > <button id='goback'> RETOUR À L'ACCEUIL </button> </Link>
+        <Link to='/' > <button id='goback' className="buttonQuentin"> RETOUR À L'ACCEUIL </button> </Link>
       </div>)
   }
 }

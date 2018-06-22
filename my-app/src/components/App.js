@@ -96,7 +96,7 @@ class App extends Component {
                         <Route path="/Avantage" component={Avantage}/>
                         <Route path="/OnBoarding" component={OnBoarding}/>
                         <Route path="/Autorise" component={Autorise}/>
-                        <Route path="/AchatBillets" component={BuyTickets} />
+                        <Route path="/BuyTickets" component={BuyTickets} />
                         <Route path="/QR" component={QrCode} />
                     </Switch>
                 </BrowserRouter>

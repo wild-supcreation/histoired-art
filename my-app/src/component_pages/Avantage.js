@@ -30,7 +30,7 @@ export default class Avantage extends React.Component {
                         <li style={{paddingBottom:'15px'}}>Faire partie de la communauté Dardar</li>
                     </ol>
                 </div>
-                <Link to="/Autorise">
+                <Link to="/BuyTickets">
                     <button className='photoBtn'>ACHETER VOS BILLETS</button>
                 </Link>
                 <Footer/>

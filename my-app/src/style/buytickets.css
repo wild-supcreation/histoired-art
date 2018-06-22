@@ -11,9 +11,13 @@
   justify-content: space-around;
 }
 
+a {
+  text-decoration: none;
+}
+
 .return {
-  color: #AC262D;
-  margin-top: 0.4em;
+  margin-top: 1em;
+  margin-left:1em;
 }
 
 .title {
@@ -87,7 +91,7 @@
 }
 
 .toi {
-  margin-top:4em;
+  margin-top: 4em;
 }
 
 /* PAGE DOWN */
@@ -99,7 +103,6 @@
 
 #card {
   background-color: white;
-
 }
 
 .cardText {
@@ -150,17 +153,23 @@ button {
 .eTicketText {
   text-align: center;
   margin-top: -0.7em;
-  font-size:1.2em;
+  font-size: 1.2em;
 }
 
 .eTicket {
   font-weight: bold;
   font-size: 1.4em;
   text-align: center;
-  margin-top : 1em;
+  margin-top: 1em;
 }
 
-.QR{
+.tickeTxt {
+  margin-top: 2em;
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.QR {
   margin-top: -0.7em;
   margin-left: 7em;
   width: 8em;

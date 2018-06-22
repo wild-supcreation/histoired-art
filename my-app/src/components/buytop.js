@@ -20,16 +20,26 @@ const tickeType = (buy, valid) => {
       </div>
     )
   }
-
 }
 
-const BuyTop = ({ buy, title, valid }) => {
+
+
+const BuyTop = ({ buy, valid, canceled }) => {
+  let title
+
+  if (!buy && !valid)
+    title = 'ACHETER UN BILLET'
+  else if (buy && valid)
+    title = 'TA COMMANDE'
+  else
+    title = 'CONFIRMATION ACHAT'
+
   if (!buy) {
 
     return (
       <div className='containerTopPage'>
-        <TicketHeader title={title} />
-        <InformationBNF buy={buy} valid={valid} />
+        <TicketHeader title={title} canceled={canceled}  />
+        <InformationBNF buy={buy} valid={valid} canceled={canceled} />
         {tickeType(buy, valid)}
       </div>
     )
@@ -42,7 +52,6 @@ const BuyTop = ({ buy, title, valid }) => {
       </div>
     )
   }
-
 }
 
 export default BuyTop

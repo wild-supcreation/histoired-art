@@ -1,6 +1,7 @@
 import React from 'react'
 import nadarPics from '../nadar-photographe@2x.png'
-import people from '../suit.jpg'
+import people from './../brooke-cagle-224815-unsplash@2x.png'
+
 
 const InformationBNF = ({ buy, valid }) => {
   if (!buy && !valid) {

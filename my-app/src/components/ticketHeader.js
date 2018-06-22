@@ -1,7 +1,8 @@
 import React from 'react'
 import TitleTicket from './titleTicket.js'
-
-const TicketHeader = ({ title }) => {
+import { Link } from 'react-router-dom'
+import arrow from './../red-arrow.svg'
+const TicketHeader = ({ title, canceled }) => {
 
   let titleBis = title
 
@@ -9,12 +10,14 @@ const TicketHeader = ({ title }) => {
     <div>
       <div id='titleBillet'>
 
-        <h1 className='return'>⬅</h1>
+        <div onClick={() => canceled } >
+        <img width='30px' className='return' src={arrow} />
+        </div>
 
         <p className='title '>{title}</p>
 
       </div>
-        <TitleTicket title={title} />
+      <TitleTicket title={title} />
     </div>
   )
 }

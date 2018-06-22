@@ -2,15 +2,15 @@
     background-color: #AC262D;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    height: 5em;
+    height: 3em;
+
     width: 100%;
 }
 
-/*a > img {*/
-    /*margin: 1Opx;*/
-    /*width: 23px;*/
-    /*padding-left: 10px;*/
-    /*padding-right: 10px;*/
-/*}*/
+#item-nav {
+    width: 19px;
+    padding: 10px;
+
+}

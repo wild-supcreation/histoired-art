@@ -1,16 +1,32 @@
 .textAvatar {
     margin: 0 40px;
     font-size: 17px;
+    display: block;
+    text-align: center;
 }
 
-a > img {
+.text-title{
+    color: #ac262d;
+    font-size: 23px
+}
+
+.text-gaming{
+
+    margin-top: 2em;
+    margin-right: 1em;
+    width: 300px;
+    font-size: 18px;
+    text-align: left
+}
+
+.left-arrow > img{
     margin-top: -5px;
     width: 30px;
     position: fixed;
     left: 20px;
 }
 
-button {
+.photoBtn {
     display: block;
     text-align: center;
     background-color: transparent;
@@ -22,9 +38,12 @@ button {
     color: #AC262D;
 }
 
-#link {
+.item-nav{
+    background-color: transparent;
     margin-top: 15px;
     color: grey;
+    display: block;
+    text-align: center;
 }
 
 .SocialeIcon {

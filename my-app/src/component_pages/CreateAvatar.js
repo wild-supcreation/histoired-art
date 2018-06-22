@@ -11,19 +11,19 @@ class CreateAvatar extends React.Component {
         return (
             <div>
                 <HeaderNav src={avatarFemme}>
-                    <Link to="/"><a><img src={leftArrow} alt='left-arrow'/></a></Link>
+                    <Link to="/"><a className='left-arrow'><img  src={leftArrow} alt='left-arrow'/></a></Link>
                     <span style={{fontWeight: 'bold'}}>CRÉER</span> <br/>VOTRE AVATAR
                 </HeaderNav>
                 <div className='textAvatar'>
-                    <p style={{color: '#ac262d', fontSize: 23}}>Près pour <span
+                    <p className='text-title'>Près pour <span
                         style={{fontWeight: 'bold'}}>Histoire Dar ?</span></p>
                     <p>Commançons par créer votre avatar aux couleurs des photographies de Nadar </p>
                 </div>
                 <Link to="/CreateAvatarFiltre">
                     <button className='photoBtn'>PRENDRE MA PHOTO</button>
                 </Link>
-                <div id='link'>
-                    <Link to="/OnBoarding"><button style={{border:0}}>Continuer sans créer mon avatar</button></Link>
+                <div>
+                    <Link to="/ActiverNotif"><a className="item-nav">Continuer sans créer mon avatar</a></Link>
                 </div>
             </div>
         )

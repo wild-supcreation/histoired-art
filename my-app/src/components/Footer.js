@@ -11,11 +11,11 @@ export default class Footer extends React.Component {
     render() {
         return (
             <div className='Footer'>
-                <div className='link'><Link to='/'><img src={Notif} alt='Notif logo'/></Link></div>
-                <div className='link'><Link to='/'><img src={Pin} alt='Pin logo'/></Link></div>
-                <div className='link'><Link to='/'> <img src={Home} alt='Home logo'/></Link></div>
-                <div className='link'><Link to='/'><img src={Settings} alt='Settings logo'/></Link></div>
-                <div className='link'><Link to='/'><img src={UserIcon} alt='userIcon logo'/></Link></div>
+                <div id='item-nav'><Link to='/'><img src={Notif} alt='Notif logo'/></Link></div>
+                <div id='item-nav'><Link to='/'><img src={Pin} alt='Pin logo'/></Link></div>
+                <div id='item-nav'><Link to='/'> <img src={Home} alt='Home logo'/></Link></div>
+                <div id='item-nav'><Link to='/'><img src={Settings} alt='Settings logo'/></Link></div>
+                <div id='item-nav'><Link to='/'><img src={UserIcon} alt='userIcon logo'/></Link></div>
             </div>
         )
     }

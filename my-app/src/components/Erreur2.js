@@ -4,7 +4,6 @@ import movie from '../video.mp4'
 import carte from '../Carte.png'
 
 const Erreur2 = () => {
-    
     return (
         <Player 
        src={movie}

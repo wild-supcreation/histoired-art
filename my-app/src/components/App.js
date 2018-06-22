@@ -25,23 +25,23 @@ class App extends Component {
         open2: false,
         correct: [],
         fini: false
-    }
+    };
 
     closePageAccueil = () => setTimeout(() => {
         this.setState({pageSwitch: true})
 
-    }, 3000)
+    }, 3000);
 
     MouseEnter = () =>
-        this.setState({open: true})
+        this.setState({open: true});
 
     MouseOff = () =>
-        this.setState({open: false})
+        this.setState({open: false});
     MouseEnter2 = () =>
-        this.setState({open2: true})
+        this.setState({open2: true});
 
     MouseOff2 = () =>
-        this.setState({open2: false, fini: true})
+        this.setState({open2: false, fini: true});
 
 
     correctPush = {
@@ -70,16 +70,14 @@ class App extends Component {
 
 
     render() {
-
         if (this.state.pageSwitch === false) {
-            this.closePageAccueil()
+            this.closePageAccueil();
             return (
                 <div>
                     <PageAccueil closePageAccueil={this.closePageAccueil}/>
                 </div>
             )
         } else {
-
             return (
                 <BrowserRouter>
                     <Switch>
@@ -87,7 +85,6 @@ class App extends Component {
                         <Route path="/Map" render={() => <Map state={this.state} MouseEnter={this.MouseEnter} MouseOff={this.MouseOff} MouseEnter2={this.MouseEnter2} MouseOff2={this.MouseOff2}/>}/>
                         <Route path="/Erreur" render={() => <Erreur state={this.state} correctPush={this.correctPush}/>}/>
                         <Route path="/Erreur2" render={() => <Erreur2/>}/>
-                        <Route exact path="/" component={PageAccueil}/>
                         <Route path="/CreateAvatar" component={CreateAvatar}/>
                         <Route path="/CreateAvatarFiltre" component={CreateAvatarFiltre}/>
                         <Route path="/ActiverNotif" component={ActiverNotif}/>

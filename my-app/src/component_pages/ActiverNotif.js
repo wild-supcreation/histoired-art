@@ -12,7 +12,7 @@ export default class CreateAvatarFiltre extends React.Component{
         return(
             <div>
                 <HeaderNav style={{width:'16em', marginLeft:'18%'}} src={navarPics}>
-                    <Link to="/"><a><img src={leftArrow} alt='left-arrow'/></a></Link>
+                    <Link to="/"><a className='left-arrow'><img src={leftArrow} alt='left-arrow'/></a></Link>
                     <span style={{fontWeight: 'bold'}}>ACTIVER LES</span> <br/> NOTIFICATIONS
                 </HeaderNav>
                 <div className='textAvatar'>
@@ -20,9 +20,9 @@ export default class CreateAvatarFiltre extends React.Component{
                         style={{fontWeight: 'bold'}}>rester en contact</span></p>
                     <p style={{color:'black'}}>Activer les notifications pour recevoir des actualités et du contenu inédit avant de visiter l'expositon</p>
                 </div>
-                <Link to='/Avantage'><button>ACTIVER LES NOTIFICATIONS</button></Link>
-                <div id='link'>
-                    <Link to="/ActiverNotif"><button style={{border:0, color:'grey'}}>Plus tard</button></Link>
+                <Link to='/Avantage'><button className='photoBtn'>ACTIVER LES NOTIFICATIONS</button></Link>
+                <div >
+                    <Link to="/Avantage"><a className="item-nav">Plus tard</a></Link>
                 </div>
             </div>
         )

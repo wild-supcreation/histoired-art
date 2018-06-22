@@ -3,8 +3,13 @@
     height: 22em;
 }
 
-p{
+.header-title{
     color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 2px;
+    text-align: center;
 }
 
 .HeaderNav {
@@ -18,20 +23,7 @@ p{
     height:6em;
 }
 
-.HeaderNav > a {
-    margin-top: 15px;
-    margin-left: 20px;
-}
-
-.HeaderNav > p {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 2px;
-    text-align: center;
-}
-
-.headerImg > img {
+.header-img {
     justify-content: center;
     width: 60%;
     margin-left: 20%;

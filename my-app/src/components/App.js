@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
@@ -13,6 +14,8 @@ import Autorise from '../component_pages/Autorise.js'
 import Map from './Map.js'
 import Erreur from './Erreur.js'
 import Erreur2 from './Erreur2';
+import BuyTickets from './buytickets'
+import QrCode from './qrCode.js'
 import "../../node_modules/video-react/dist/video-react.css";
 
 class App extends Component {
@@ -93,6 +96,8 @@ class App extends Component {
                         <Route path="/Avantage" component={Avantage}/>
                         <Route path="/OnBoarding" component={OnBoarding}/>
                         <Route path="/Autorise" component={Autorise}/>
+                        <Route path="/AchatBillets" component={BuyTickets} />
+                        <Route path="/QR" component={QrCode} />
                     </Switch>
                 </BrowserRouter>
             )
@@ -100,4 +105,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default App

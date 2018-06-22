@@ -4,6 +4,7 @@ import '../style/PageInscription.css'
 import {Link} from 'react-router-dom'
 
 const PageInscription = () =>
+
 <div className='page-inscription'>
 <img src={logo} className="logo-inscription" alt="logo" />
     <h1 className="title-inscription">L'Histoire Dar</h1>
@@ -18,3 +19,4 @@ const PageInscription = () =>
     </form>
 </div>
  export  default PageInscription
+

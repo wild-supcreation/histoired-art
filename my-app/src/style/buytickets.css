@@ -1,0 +1,177 @@
+/* PAGE TOP */
+
+.containerTopPage {
+  background-color: #2b2b2b;
+  height: 24em;
+}
+
+#titleBillet {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+.return {
+  margin-top: 1em;
+  margin-left:1em;
+}
+
+.title {
+  font-size: 1.3em;
+  color: #AC262D;
+  margin-top: 1em;
+  margin-right: 50px;
+}
+
+.titleNadar {
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+
+.text {
+  margin-top: -0.8em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.nadarPics {
+  margin-left: 0em;
+  margin-top: 1em;
+}
+
+.nadarPicsBis {
+  width: 12em;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: -2.5em;
+}
+
+.nadarDes {
+  display: flex;
+  justify-content: center;
+}
+
+.whereWhen {
+  margin-top: -0.9em;
+  font-size: 1.2em;
+}
+
+.titleExpo {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.center {
+  color: white;
+  text-align: center;
+}
+
+.ticketType {
+  color: white;
+  font-size: 17px;
+  margin-left: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.select {
+  margin-left: 1em;
+  width: 86%;
+  height: 2.1em;
+  border: solid 1px #AC262D;
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 1.5em;
+}
+
+.toi {
+  margin-top: 4em;
+}
+
+/* PAGE DOWN */
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+}
+
+.cardText {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.buttonBuy {
+  margin-top: -0.2em;
+}
+
+.nb {
+  color: #2b2b2b;
+  font-size: 17px;
+  margin-left: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+}
+
+#selectNb {
+  background-color: white;
+}
+
+button {
+  margin: 0.8em;
+  margin-top: 2em;
+  height: 2.6em;
+  width: 7.4em;
+  background-color: white;
+  color: #AC262D;
+  border: solid 1px #AC262D;
+  font-size: 1.2em;
+}
+
+.tickets {
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#goback {
+  margin-left: 1.6em;
+  margin-top: 3.3em;
+  width: 16em;
+}
+
+.eTicketText {
+  text-align: center;
+  margin-top: -0.7em;
+  font-size: 1.2em;
+}
+
+.eTicket {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.tickeTxt {
+  margin-top: 2em;
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.QR {
+  margin-top: -0.7em;
+  margin-left: 7em;
+  width: 8em;
+  height: 8em;
+}

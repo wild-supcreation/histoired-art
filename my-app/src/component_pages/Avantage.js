@@ -4,16 +4,18 @@ import AtelierNadar from '../images/AtelierNadar.png'
 import leftArrow from '../icon/red-arrow.svg'
 import {Link} from 'react-router-dom'
 import Footer from '../components/Footer'
+import logo from '../logo.svg'
 
 
 
 export default class Avantage extends React.Component {
     render() {
         return(
-            <div>
+            <div >
                 <div className='Avantage'>
                     <Link to="/"><a className='left-arrow'> <img src={leftArrow} alt='left-arrow'/></a></Link>
                     <span style={{fontWeight: 'bold'}}>À PROPOS</span> DE L'APP
+                    <div ><img className="logos" src={logo} alt='logo'/></div>
                 </div>
                 <div>
                     <img src={AtelierNadar} alt='AtelierNadar'/>
@@ -28,7 +30,7 @@ export default class Avantage extends React.Component {
                         <li style={{paddingBottom:'15px'}}>Faire partie de la communauté Dardar</li>
                     </ol>
                 </div>
-                <Link to="/CreateAvatarFiltre">
+                <Link to="/Autorise">
                     <button className='photoBtn'>ACHETER VOS BILLETS</button>
                 </Link>
                 <Footer/>

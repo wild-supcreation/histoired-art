@@ -9,6 +9,7 @@ import PartageAvatar from '../component_pages/PartageAvatar';
 import OnBoarding from '../component_pages/OnBoarding';
 import ActiverNotif from '../component_pages/ActiverNotif';
 import Avantage from '../component_pages/Avantage';
+import Autorise from '../component_pages/Autorise.js'
 import Map from './Map.js'
 import Erreur from './Erreur.js'
 import Erreur2 from './Erreur2';
@@ -91,6 +92,7 @@ class App extends Component {
                         <Route path="/PartageAvatar" component={PartageAvatar}/>
                         <Route path="/Avantage" component={Avantage}/>
                         <Route path="/OnBoarding" component={OnBoarding}/>
+                        <Route path="/Autorise" component={Autorise}/>
                     </Switch>
                 </BrowserRouter>
             )

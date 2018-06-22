@@ -10,7 +10,7 @@ const TicketHeader = ({ title, canceled }) => {
     <div>
       <div id='titleBillet'>
 
-        <div onClick={() => canceled } >
+        <div onClick={() => window.location.reload()}>
         <img width='30px' className='return' src={arrow} />
         </div>
 

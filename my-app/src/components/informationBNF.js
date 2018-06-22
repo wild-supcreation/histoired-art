@@ -1,7 +1,7 @@
 import React from 'react'
 import nadarPics from '../nadar-photographe@2x.png'
 import people from './../brooke-cagle-224815-unsplash@2x.png'
-
+import { Link } from 'react-router-dom'
 
 const InformationBNF = ({ buy, valid }) => {
   if (!buy && !valid) {
@@ -20,7 +20,9 @@ const InformationBNF = ({ buy, valid }) => {
       <div className='nadarDes'>
         <div className='container'>
           <img className="nadarPicsBis" height='180em' src={people} alt="Nadar photo" />
-          <p className='center toi' >Ce n'es pas toi ?</p>
+          <Link to='/PageInscription'>
+            <p className='center toi' >Ce n'est pas toi ?</p>
+          </Link>
         </div>
       </div>
     )

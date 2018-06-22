@@ -11,7 +11,7 @@ const QrCode = () => {
       <div className='containerTopPage'>
         <div>
           <div id='titleBillet'>
-            <Link to='/QR' >
+            <Link to='/' >
               <img width='30px' className='return' src={arrow} />
             </Link>
             <p className='title' > TA COMMANDE </p>

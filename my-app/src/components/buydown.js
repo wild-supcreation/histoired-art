@@ -1,15 +1,16 @@
 import React from 'react'
 import TicketButton from './ticketButtons.js'
 import QRcode from './../qr.png'
+import visa from '../cb.png'
 import {Link} from 'react-router-dom'
-const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
+const BuyDown = ({ buy, valid, page, changeTicket, changeValid, canceled}) => {
 
   if (!buy && !valid) {
     return (
       <div>
         <p className='nb' > NOMBRE </p>
-        <input id='selectNb' className='select' type='text' />
-        <div className='containerButton'>
+        <input id='selectNb' className='select3' type='text' />
+        <div className='containerButton2'>
         <Link to='/QR' > <button className='buttonQuentin' >ANNULER</button> </Link>
           <button className='buttonQuentin' onClick={changeTicket} >VALIDER</button>
         </div>
@@ -22,6 +23,7 @@ const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
       <div>
         <p className='cardText buy'>MOYEN DE PAIEMENT</p>
         <input id='card' className='select' type='text' />
+        <img className='visa' src={visa} />
         <p className='cardText' > Ajouter une autre carte de paiement </p>
         <div className='containerButton'>
         <Link to='/' >  <button className='buttonBuy buttonQuentin' >ANNULER</button> </Link>
@@ -41,7 +43,7 @@ const BuyDown = ({ buy, valid, page, changeTicket, changeValid }) => {
         <p className='tickets '>VOS BILLETS</p>
         <p className='tickeTxt' >3x Billets 'Etudiant' Fast Pass</p>
 
-        <Link to='/' > <button id='goback' className="buttonQuentin"> RETOUR À L'ACCEUIL </button> </Link>
+        <Link to='/Autorise' > <button id='goback' className="buttonQuentin"> RETOUR À L'ACCEUIL </button> </Link>
       </div>)
   }
 }

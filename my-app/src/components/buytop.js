@@ -10,7 +10,7 @@ const tickeType = (buy, valid) => {
         <p className='ticketType'>TYPE DE BILLET</p>
         <div>
           <form>
-            <select className='select' onchange="" >
+            <select className='select2'  >
               <option>Etudiant</option>
               <option>Enfant</option>
               <option>Adulte</option>
@@ -25,6 +25,7 @@ const tickeType = (buy, valid) => {
 
 
 const BuyTop = ({ buy, valid, canceled }) => {
+  console.log('bogdan',canceled)
   let title
 
   if (!buy && !valid)
@@ -47,8 +48,8 @@ const BuyTop = ({ buy, valid, canceled }) => {
   else {
     return (
       <div className='containerTopPage'>
-        <TicketHeader title={title} />
-        <InformationBNF buy={buy} valid={valid} />
+        <TicketHeader title={title} canceled={canceled}/>
+        <InformationBNF buy={buy} valid={valid} canceled={canceled}/>
       </div>
     )
   }

@@ -21,7 +21,7 @@ export default class OnBoarding extends React.Component{
                         style={{fontWeight: 'bold'}}>Plus tu gagnes</span></p>
                     <p>Multiplie tes chances de remporter de beaux cadeaux en effectuant le plus d'étape possibles !  </p>
                 </div>
-                <button>LANCER LE JEU</button>
+                <Link to='/Map'><button className='photoBtn'>LANCER LE JEU</button></Link>
                 <Footer/>
             </div>
         )
